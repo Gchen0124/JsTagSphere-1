@@ -322,7 +322,7 @@ function Clouder(params) {
         closest = obj;
         
         if (closest != null) {
-            closest.span.style.border = "";
+            closest.span.style.color = "#fff763";
         } // if
         
     } // setClosest
