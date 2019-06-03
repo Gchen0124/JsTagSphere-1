@@ -403,7 +403,7 @@ function Clouder(params) {
             throw "Clouder without tags";
         } // if
         
-        callback = p.callback ? p.callback : function(id) { alert(id); };
+        callback = p.callback ? p.callback : function(id) { open(id); };
         fontSize = p.fontSize ? p.fontSize : 14;
         fontShift = typeof(p.fontShift) != "undefined" ? p.fontShift : fontSize / 2;
         colorMax = p.colorMax ? parseColor(p.colorMax) : parseColor("#000000");
