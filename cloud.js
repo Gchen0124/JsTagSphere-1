@@ -316,8 +316,8 @@ function Clouder(params) {
             return;
         } // if
         
-        if (closest != null) {
-            closest.span.style.border = "";
+        if (closest == null) {
+            closest.span.style.color = "";
         } // if
         closest = obj;
         
