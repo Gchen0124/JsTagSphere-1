@@ -316,7 +316,7 @@ function Clouder(params) {
             return;
         } // if
         
-        if (closest == null) {
+        if (closest = null) {
             closest.span.style.color = "initial";
         } // if
         closest = obj;
